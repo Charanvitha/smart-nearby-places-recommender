@@ -3,6 +3,9 @@
 A location-based web application that recommends nearby places based on user mood using **OpenStreetMap + Overpass API**.  
 Built with **React + Leaflet** and includes filters, sorting, favorites, offline caching and place details.
 
+## 🌐 Live Demo
+https://smart-nearby-places-recommender.netlify.app/
+
 ---
 
 ## 🚀 Features
