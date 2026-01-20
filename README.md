@@ -4,7 +4,7 @@ A location-based web application that recommends nearby places based on user moo
 Built with **React + Leaflet** and includes filters, sorting, favorites, offline caching and place details.
 
 ## 🔗 Links
-- Live Demo: https://smart-nearby-places-recommender.netlify.app/
+- Live Demo: https://smartnearby-placesrecommender.netlify.app/
 - GitHub Repo: https://github.com/Charanvitha/smart-nearby-places-recommender
 
 ---
@@ -13,17 +13,19 @@ Built with **React + Leaflet** and includes filters, sorting, favorites, offline
 - 📍 Real-time location detection (with fallback location)
 - 😊 Mood-based place recommendations:
   - Work → cafés, libraries, coworking spaces
-  - Date → restaurants, cafés, parks, theatres
   - Quick Bite → fast food, restaurants
   - Budget → budget-friendly eateries (best-effort)
+  - Tourist → tourist attractions & sightseeing spots
+  - Stay → hotels / guest houses (for travel stay)
 - 🎯 "Top match for your mood" smart suggestion banner
 - 🧭 Filters & Sorting:
   - Distance (1 / 3 / 5 / 10 / 20 km)
-  - Sort by relevance / distance / A-Z
+  - Sort by relevance / distance / A-Z / rating
   - Search results by place name
 - ⭐ Favorites / Saved Places tab (localStorage)
-- 📌 Place details (modal page)
-- 📤 Share on WhatsApp + copy link
+- 📝 Reviews system (users can give ratings + feedback)
+- 📌 Place details panel
+- 📤 Share on WhatsApp
 - 📍 Directions button (opens Google Maps)
 - 💾 Offline support: caches last search results
 
@@ -33,7 +35,7 @@ Built with **React + Leaflet** and includes filters, sorting, favorites, offline
 - React.js
 - Leaflet + React Leaflet (OpenStreetMap tiles)
 - Overpass API (place discovery)
-- localStorage (favorites + offline cache)
+- localStorage (favorites + offline cache + reviews)
 
 ---
 
@@ -43,13 +45,5 @@ npm install
 npm start
 
 
-## 📸 Screenshots
 
-### Home
-![Home](./screenshots/home.png)
 
-### Results
-![Results](./screenshots/results.png)
-
-### Saved Places
-![Saved](./screenshots/saved.png)
